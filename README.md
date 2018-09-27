@@ -163,8 +163,8 @@ Besides, the community of React is also larger than Vue. React is downloaded 2.5
 ---
 **Reference：**
 
-1.[Wikipedia of Vue.js](https://en.wikipedia.org/wiki/Vue.js)
+1.Wikipedia of Vue.js:[https://en.wikipedia.org/wiki/Vue.js](https://en.wikipedia.org/wiki/Vue.js)
 
-2.[Blog of Chenxj](https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html)
+2.Blog of Chenxj:[https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html](https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html)
 
-3.[Blog of MR-YY](https://www.cnblogs.com/MR-YY/p/6898464.html)
+3.Blog of MR-YY:[https://www.cnblogs.com/MR-YY/p/6898464.html](https://www.cnblogs.com/MR-YY/p/6898464.html)
