@@ -159,3 +159,9 @@ Obviously, the code using vue is simpler.
 #### 2.2.2 Cons
 React is better when constructing an enoumous project. Vue is easier to master, but it may generate technical debts, which make it harder to test or restore.
 Besides, the community of React is also larger than Vue. React is downloaded 2.5 million times on NPM every month, while Vue is downloaded only 225 thousand times.
+
+---
+Reference：
+1.[Wikipedia of Vue.js](https://en.wikipedia.org/wiki/Vue.js)
+2.[Blog of Chenxj](https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html)
+3.[Blog of MR-YY](https://www.cnblogs.com/MR-YY/p/6898464.html)
