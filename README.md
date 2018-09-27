@@ -1,7 +1,7 @@
 # Hw1
 
 ## 1 Brief Introduction to Vue.js
- Vue.js (commonly referred to as Vue; pronounced /vjuː/, like view) is an open-source JavaScript framework for building user interfaces. Integration into projects that use other JavaScript libraries is simplified with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.
+ Vue.js<sup>[1]</sup> (commonly referred to as Vue; pronounced /vjuː/, like view) is an open-source JavaScript framework for building user interfaces. Integration into projects that use other JavaScript libraries is simplified with Vue because it is designed to be incrementally adoptable. Vue can also function as a web application framework capable of powering advanced single-page applications.
 
 ### 1.1 History
 Vue was created by Evan You after working for Google using AngularJS in a number of projects. He later summed up his thought process, 
@@ -25,7 +25,7 @@ Components are one of the most powerful features of Vue. In a large application,
 ### 2.1 Compared with jquery
 Although There seems to be no comparability between vue and jquery (vue is a framework while jquery is a library of Javascript), we can still compare them in the aspect of thoughts.
 #### 2.1.1 Pros
-Jquery uses ($) to pick DOM object and operate, which can be complex when the structure of DOM is too complicated. Vue can operate the data itself.
+Jquery<sup>[2]</sup> uses ($) to pick DOM object and operate, which can be complex when the structure of DOM is too complicated. Vue can operate the data itself.
 For example: Add an element to the list,it's obvious that the code using vue is more pity.
 
 Vue:
@@ -104,7 +104,7 @@ Jquery has been popular for many years. However, people using vue is much less t
 Although I'm not familiar with React, information of both of the frameworks on the internet is adequate for me to understand them further.
 
 #### 2.2.1 Pros
-Compared with React, vue is faster, smaller and much simpler.
+Compared<sup>[3]</sup> with React, vue is faster, smaller and much simpler.
 Here is an example: show a message and set a button to reverse it
 Vue:
 ```
@@ -165,6 +165,7 @@ Besides, the community of React is also larger than Vue. React is downloaded 2.5
 
 ***1.Wikipedia of Vue.js:*** [https://en.wikipedia.org/wiki/Vue.js](https://en.wikipedia.org/wiki/Vue.js)
 
-***2.Blog of Chenxj:*** [https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html](https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html)
+***2.Blog of MR-YY:*** [https://www.cnblogs.com/MR-YY/p/6898464.html](https://www.cnblogs.com/MR-YY/p/6898464.html)
 
-***3.Blog of MR-YY:*** [https://www.cnblogs.com/MR-YY/p/6898464.html](https://www.cnblogs.com/MR-YY/p/6898464.html)
+***3.Blog of Chenxj:*** [https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html](https://www.cnblogs.com/Chen-XiaoJun/p/6246946.html)
+
