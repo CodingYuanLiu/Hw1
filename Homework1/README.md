@@ -29,7 +29,7 @@ Jquery<sup>[2]</sup> uses ($) to pick DOM object and operate, which can be compl
 For example: Add an element to the list,it's obvious that the code using vue is more pity.
 
 Vue:
-```
+``` HTML
 <!DOCTYPE html>
 <html>
 
@@ -66,7 +66,7 @@ Vue:
 </script>
 ```
 Jquery:
-```
+``` HTML
 <!DOCTYPE html>
 <html>
 
@@ -107,7 +107,7 @@ Although I'm not familiar with React, information of both of the frameworks on t
 Compared<sup>[3]</sup> with React, vue is faster, smaller and much simpler.
 Here is an example: show a message and set a button to reverse it
 Vue:
-```
+``` HTML
 <div id="app">
   <p>{{ message }}</p>
   <button v-on:click="reverseMessage">Reverse Message</button>
@@ -126,7 +126,7 @@ new Vue({
 });
 ```
 React:
-```
+``` HTML
 <div id="app"></div>
 
 class App extends React.Component {
