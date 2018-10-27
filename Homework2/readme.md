@@ -8,7 +8,6 @@ App是英文Application（即application program：指能够执行某种功能�
 2. Web App
 3. Hybrid App（混合app）
 
-他们之间的关系如下图：
 ![avatar](https://upload-images.jianshu.io/upload_images/1668945-eebff27c68f3e4db.png)
 ### Native Applications
 Native App开发即我们所称的传统APP开发模式（原生APP开发模式），该开发针对IOS、Android等不同的手机操作系统要采用不同的语言和框架进行开发。
@@ -16,7 +15,6 @@ Native App开发即我们所称的传统APP开发模式（原生APP开发模式�
 该模式通常是由“云服务器数据+APP应用客户端”两部份构成，APP应用所有的UI元素、数据内容、逻辑框架均安装在手机终端上。
 
 Native App的开发成本非常大，更新体验较差、同时也比较麻烦，但是可以调用IOS中的UI控件以UI方法，它可以实现WebApp无法实现的一些非常酷的交互效果。
-![avatar](559443-6bb5e01ed2bfb2c0.png)
 
 ### 2 Web Applications
 Web App是无需安装，通过XHTML、CSS和JavaScript等网站技术实现的可以在任意浏览器中执行功能的网站类应用。与传统意义的网站不用的是在HTML5等技术的不断普及和应用使得Web App能够具有和Native App相似的界面和交互效果。与Native App相比其本身也有着独特的优势。
@@ -51,6 +49,10 @@ Hybrid App（混合应用），顾名思义就是以上两种的结合。就是�
 * 在应用内部打开web网页，省去了跳转浏览器的麻烦
 * 主要功能区相对稳定下，增加的功能区采用web 形式，使得迭代更加方便
 * web页面在用户设置不同的网络制式时会以不同的形式呈现（以微信朋友圈为例，在数据流量下，设置APNS为WAP时，微信订阅号内容将屏蔽图片和视频。这样就能为用户省去一部分流量，整个页面阅读就不那么友好了）
+
+Hybrid APP:
+
+![avatar](https://upload-images.jianshu.io/upload_images/1668945-6d8f35e7f126abf3.png)
 ### Which Kind of App to choose?
 不同的页面情况选择不同的开发方式
 * 如果app中出现了大段文字（如新闻、攻略等），并且格式比较丰富（如加粗、字体多样等），采用H5较好。原因：原生开发对解析json字符串格式不是很友好
