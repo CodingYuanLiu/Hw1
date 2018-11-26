@@ -3,6 +3,13 @@
  */
 const non_existence=-1;
 
+class Word{
+    constructor(string){
+      this.word=string;
+      this.used=false;
+    }
+}
+
 /* function in_dictionary
  * Usage:if(in_dictionary(string,dictionary)!=non_existence),...
  * ------------------------------------------
@@ -12,20 +19,21 @@ const non_existence=-1;
 
 function in_dictionary(string, dictionary){
     var low=0,high=dictionary.length;
-    var mid=(low+high)/2;
+    var mid=parseInt((low+high)/2);
+    const non_existence=-1;
     while(low<=high){
-        if(dictionary[mid].word > string){
+        if(dictionary[mid]!=null && dictionary[mid].word > string){
             high=mid-1;
             mid=(low+high)/2;
             mid=parseInt(mid);
         }
-        else if(dictionary[mid].word < string){
+        else if(dictionary[mid]!=null && dictionary[mid].word < string){
             low=mid+1;
             mid=(low+high)/2;
             mid=parseInt(mid);        
         }
         else{
-            if(dictionary[mid].used === false){
+            if(dictionary[mid]!=null && dictionary[mid].used === false){
                 return mid;
             }
             else{
@@ -102,6 +110,7 @@ function getladder(start,destination,dictionary){
     //A queue to store every ladder.
     const ladderqueue=new Array();
     var top;
+    var is_in;
     ladder.push(start);
     ladderqueue.push(ladder);
     while(ladderqueue.length!=0)
@@ -143,7 +152,10 @@ function getladder(start,destination,dictionary){
             }
         }
     }
-    Noladder = "No ladder!"
+    var Noladder = "No ladder!"
     return Noladder;
 }
-
+export {
+  getladder,clone,Word,in_dictionary
+}
+const letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
